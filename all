@@ -19,21 +19,21 @@
   - DOMAIN-SUFFIX,jetbrains.com
 
 # telemetry
-- DOMAIN-SUFFIX,statshelix.com,🌍 VPN
-- DOMAIN-SUFFIX,sentry.io,🌍 VPN
-- DOMAIN-SUFFIX,datadog.com,🌍 VPN
+- DOMAIN-SUFFIX,statshelix.com
+- DOMAIN-SUFFIX,sentry.io
+- DOMAIN-SUFFIX,datadog.com
 
 # auth
-- DOMAIN-SUFFIX,auth0.com,🌍 VPN
-- DOMAIN-SUFFIX,accounts.google.com,🌍 VPN
-- DOMAIN-SUFFIX,login.live.com,🌍 VPN
-- DOMAIN-SUFFIX,steamcommunity.com,🌍 VPN
+- DOMAIN-SUFFIX,auth0.com
+- DOMAIN-SUFFIX,accounts.google.com
+- DOMAIN-SUFFIX,login.live.com
+- DOMAIN-SUFFIX,steamcommunity.com
 
 # cdn edge
-- DOMAIN-SUFFIX,cloudfront.net,🌍 VPN
-- DOMAIN-SUFFIX,fastly.net,🌍 VPN
-- DOMAIN-SUFFIX,akamaized.net,🌍 VPN
-- DOMAIN-SUFFIX,cdn.cloudflare.net,🌍 VPN
+- DOMAIN-SUFFIX,cloudfront.net
+- DOMAIN-SUFFIX,fastly.net
+- DOMAIN-SUFFIX,akamaized.net
+- DOMAIN-SUFFIX,cdn.cloudflare.net
 
 - DOMAIN-SUFFIX,iracing.com
 - DOMAIN-SUFFIX,members.iracing.com
@@ -76,27 +76,6 @@ payload:
 
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redd.it
-
-  - DOMAIN-SUFFIX,proton.me
-  - DOMAIN-SUFFIX,protonmail.com
-  - DOMAIN-SUFFIX,protonmail.ch
-  - DOMAIN,mail.proton.me
-  - DOMAIN,account.proton.me
-  - DOMAIN,api.proton.me
-  - DOMAIN,mail-api.proton.me
-  - DOMAIN,mailsec.protonmail.ch
-  - DOMAIN,mail.protonmail.ch
-  - DOMAIN-SUFFIX,proton.me
-  - DOMAIN-SUFFIX,protonmail.com
-  - DOMAIN-SUFFIX,protonmail.ch
-  - DOMAIN-SUFFIX,pm.me
-  - DOMAIN-SUFFIX,protonvpn.com
-  - DOMAIN-SUFFIX,protondrive.com
-payload:
-- DOMAIN-SUFFIX,youtube.com
-- DOMAIN-SUFFIX,googlevideo.com
-- DOMAIN-SUFFIX,ytimg.com
-- DOMAIN-SUFFIX,youtu.be
 
 - DOMAIN-SUFFIX,twitch.tv
 - DOMAIN-SUFFIX,jtvnw.net
