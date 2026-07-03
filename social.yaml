@@ -1,8 +1,10 @@
 payload:
   - DOMAIN-SUFFIX,discord.com
-  - DOMAIN-SUFFIX,discord.gg
   - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discordcdn.com
   - DOMAIN-SUFFIX,discordmedia.net
+  - DOMAIN-SUFFIX,media.discordapp.net
 
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,cdninstagram.com
