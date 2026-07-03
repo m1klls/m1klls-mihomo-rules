@@ -15,3 +15,19 @@ payload:
 
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redd.it
+
+  - DOMAIN-SUFFIX,proton.me
+  - DOMAIN-SUFFIX,protonmail.com
+  - DOMAIN-SUFFIX,protonmail.ch
+  - DOMAIN,mail.proton.me
+  - DOMAIN,account.proton.me
+  - DOMAIN,api.proton.me
+  - DOMAIN,mail-api.proton.me
+  - DOMAIN,mailsec.protonmail.ch
+  - DOMAIN,mail.protonmail.ch
+  - DOMAIN-SUFFIX,proton.me
+  - DOMAIN-SUFFIX,protonmail.com
+  - DOMAIN-SUFFIX,protonmail.ch
+  - DOMAIN-SUFFIX,pm.me
+  - DOMAIN-SUFFIX,protonvpn.com
+  - DOMAIN-SUFFIX,protondrive.com
