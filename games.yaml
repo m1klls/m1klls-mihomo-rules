@@ -1,0 +1,7 @@
+payload:
+  - DOMAIN-SUFFIX,iracing.com
+  - DOMAIN-SUFFIX,members.iracing.com
+  - DOMAIN-SUFFIX,cdn.iracing.com
+  - DOMAIN,iracing.vm.statshelix.com
+
+  - DOMAIN-SUFFIX,nexusmods.com
