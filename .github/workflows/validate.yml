@@ -1,8 +1,7 @@
-name: Validate YAML
+name: Validate Mihomo Rules
 
 on:
   push:
-    branches: [main]
   pull_request:
 
 jobs:
@@ -10,13 +9,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
       - name: Install yamllint
         run: |
           sudo apt update
           sudo apt install yamllint -y
 
-      - name: Validate
+      - name: Validate YAML files
         run: |
-          yamllint *.yaml
+          yamllint .
