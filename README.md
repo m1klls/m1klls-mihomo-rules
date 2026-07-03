@@ -1,5 +1,9 @@
 # 🚀 m1klls-mihomo-rules
 
+![GitHub last commit](https://img.shields.io/github/last-commit/m1klls/m1klls-mihomo-rules)
+![GitHub Repo stars](https://img.shields.io/github/stars/m1klls/m1klls-mihomo-rules)
+# 🚀 m1klls-mihomo-rules
+
 Fast, lightweight rule providers for Mihomo.
 
 ## Rule Sets
