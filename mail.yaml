@@ -2,3 +2,16 @@ payload:
   - DOMAIN-SUFFIX,proton.me
   - DOMAIN-SUFFIX,protonmail.com
   - DOMAIN-SUFFIX,protonmail.ch
+  - DOMAIN,mail.proton.me
+  - DOMAIN,account.proton.me
+  - DOMAIN,api.proton.me
+  - DOMAIN,mail-api.proton.me
+  - DOMAIN,mailsec.protonmail.ch
+  - DOMAIN,mail.protonmail.ch
+  - DOMAIN-SUFFIX,proton.me
+  - DOMAIN-SUFFIX,protonmail.com
+  - DOMAIN-SUFFIX,protonmail.ch
+  - DOMAIN-SUFFIX,pm.me
+  - DOMAIN-SUFFIX,protonvpn.com
+  - DOMAIN-SUFFIX,protondrive.com
+  - DOMAIN-SUFFIX,protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion
