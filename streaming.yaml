@@ -1,15 +1,20 @@
 payload:
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,youtu.be
+ - DOMAIN-SUFFIX,youtube.com
+ - DOMAIN-SUFFIX,youtu.be
 
-  - DOMAIN-SUFFIX,twitch.tv
-  - DOMAIN-SUFFIX,jtvnw.net
-  - DOMAIN-SUFFIX,ttvnw.net
-  - DOMAIN-SUFFIX,twitchcdn.net
-  - DOMAIN-SUFFIX,live-video.net
+- DOMAIN-SUFFIX,twitch.tv
+- DOMAIN-SUFFIX,jtvnw.net
+- DOMAIN-SUFFIX,ttvnw.net
+- DOMAIN-SUFFIX,twitchcdn.net
+- DOMAIN-SUFFIX,live-video.net
 
-  - DOMAIN-SUFFIX,obsproject.com
-  - DOMAIN-SUFFIX,auth.obsproject.com
+- DOMAIN,auth.obsproject.com
+- DOMAIN-SUFFIX,obsproject.com
+- DOMAIN-SUFFIX,obsproject.com
 
-  - DOMAIN-SUFFIX,spotify.com
-  - DOMAIN-SUFFIX,scdn.co
+- DOMAIN-SUFFIX,spotify.com
+- DOMAIN-SUFFIX,scdn.co
+
+- DOMAIN-SUFFIX,youtube.com
+- DOMAIN-SUFFIX,googlevideo.com
+- DOMAIN-SUFFIX,youtu.be
