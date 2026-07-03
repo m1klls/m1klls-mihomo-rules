@@ -1,4 +1,5 @@
 payload:
+  # === AI / dev tools ===
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,oaistatic.com
@@ -19,95 +20,71 @@ payload:
   - DOMAIN-SUFFIX,pypi.org
   - DOMAIN-SUFFIX,jetbrains.com
 
-# telemetry
-- DOMAIN-SUFFIX,statshelix.com
-- DOMAIN-SUFFIX,sentry.io
-- DOMAIN-SUFFIX,datadog.com
+  # === telemetry ===
+  - DOMAIN-SUFFIX,statshelix.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,datadog.com
 
-# auth
-- DOMAIN-SUFFIX,auth0.com
-- DOMAIN-SUFFIX,accounts.google.com
-- DOMAIN-SUFFIX,login.live.com
-- DOMAIN-SUFFIX,steamcommunity.com
+  # === auth ===
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,accounts.google.com
+  - DOMAIN-SUFFIX,login.live.com
+  - DOMAIN-SUFFIX,steamcommunity.com
 
-# cdn edge
-- DOMAIN-SUFFIX,cloudfront.net
-- DOMAIN-SUFFIX,fastly.net
-- DOMAIN-SUFFIX,akamaized.net
-- DOMAIN-SUFFIX,cdn.cloudflare.net
+  # === sim racing / gaming CDN (специфичные домены, не общий edge) ===
+  - DOMAIN-SUFFIX,iracing.com
+  - DOMAIN-SUFFIX,members.iracing.com
+  - DOMAIN-SUFFIX,cdn.iracing.com
+  - DOMAIN,iracing.vm.statshelix.com
+  - DOMAIN-SUFFIX,garage61.net
+  - DOMAIN-SUFFIX,tradingpaints.com
+  - DOMAIN-SUFFIX,static.tradingpaints.com
+  - DOMAIN-SUFFIX,api.tradingpaints.com
+  - DOMAIN-SUFFIX,nexusmods.com
 
-- DOMAIN-SUFFIX,iracing.com
-- DOMAIN-SUFFIX,members.iracing.com
-- DOMAIN-SUFFIX,cdn.iracing.com
-- DOMAIN,iracing.vm.statshelix.com
-- DOMAIN-SUFFIX,garage61.net
-- DOMAIN-SUFFIX,tradingpaints.com
-- DOMAIN-SUFFIX,static.tradingpaints.com
-- DOMAIN-SUFFIX,api.tradingpaints.com
-- DOMAIN-SUFFIX,nexusmods.com
-  - DOMAIN-SUFFIX,proton.me
-  - DOMAIN-SUFFIX,protonmail.com
-  - DOMAIN-SUFFIX,protonmail.ch
-  - DOMAIN,mail.proton.me
-  - DOMAIN,account.proton.me
-  - DOMAIN,api.proton.me
-  - DOMAIN,mail-api.proton.me
-  - DOMAIN,mailsec.protonmail.ch
-  - DOMAIN,mail.protonmail.ch
+  # === Proton ===
   - DOMAIN-SUFFIX,proton.me
   - DOMAIN-SUFFIX,protonmail.com
   - DOMAIN-SUFFIX,protonmail.ch
   - DOMAIN-SUFFIX,pm.me
   - DOMAIN-SUFFIX,protonvpn.com
   - DOMAIN-SUFFIX,protondrive.com
-payload:
+
+  # === social ===
   - DOMAIN-SUFFIX,discord.com
   - DOMAIN-SUFFIX,discordapp.com
   - DOMAIN-SUFFIX,discord.gg
   - DOMAIN-SUFFIX,discordcdn.com
   - DOMAIN-SUFFIX,discordmedia.net
   - DOMAIN-SUFFIX,media.discordapp.net
-
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,cdninstagram.com
-
   - DOMAIN-SUFFIX,x.com
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twimg.com
-
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redd.it
 
-- DOMAIN-SUFFIX,twitch.tv
-- DOMAIN-SUFFIX,jtvnw.net
-- DOMAIN-SUFFIX,ttvnw.net
-- DOMAIN-SUFFIX,twitchcdn.net
-- DOMAIN-SUFFIX,live-video.net
+  # === streaming ===
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,ttvnw.net
+  - DOMAIN-SUFFIX,twitchcdn.net
+  - DOMAIN-SUFFIX,live-video.net
+  - DOMAIN,auth.obsproject.com
+  - DOMAIN-SUFFIX,obsproject.com
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN,audio-ak-spotify-com.akamaized.net
+  - DOMAIN,apresolve.spotify.com
 
-- DOMAIN,auth.obsproject.com
-- DOMAIN-SUFFIX,obsproject.com
-
-- DOMAIN-SUFFIX,spotify.com
-- DOMAIN-SUFFIX,scdn.co
-- DOMAIN-SUFFIX,spoti.fi
-- DOMAIN,audio-ak-spotify-com.akamaized.net
-- DOMAIN,apresolve.spotify.com
-
-- DOMAIN-SUFFIX,twitch.tv
-- DOMAIN-SUFFIX,ttvnw.net
-- DOMAIN-SUFFIX,jtvnw.net
-- DOMAIN-SUFFIX,twitchcdn.net
-
-# 7TV
-- DOMAIN-SUFFIX,7tv.app
-- DOMAIN-SUFFIX,cdn.7tv.app
-- DOMAIN-SUFFIX,api.7tv.app
-
-# BetterTTV (BTTV)
-- DOMAIN-SUFFIX,betterttv.net
-- DOMAIN-SUFFIX,cached-images.betterttv.net
-
-# FrankerFaceZ (FFZ emotes)
-- DOMAIN-SUFFIX,frankerfacez.com
-- DOMAIN-SUFFIX,cdn.frankerfacez.com
-- DOMAIN-SUFFIX,3fjm.ahc.ovh
+  # === Twitch emote services ===
+  - DOMAIN-SUFFIX,7tv.app
+  - DOMAIN-SUFFIX,cdn.7tv.app
+  - DOMAIN-SUFFIX,api.7tv.app
+  - DOMAIN-SUFFIX,betterttv.net
+  - DOMAIN-SUFFIX,cached-images.betterttv.net
+  - DOMAIN-SUFFIX,frankerfacez.com
+  - DOMAIN-SUFFIX,cdn.frankerfacez.com
+  - DOMAIN-SUFFIX,3fjm.ahc.ovh
