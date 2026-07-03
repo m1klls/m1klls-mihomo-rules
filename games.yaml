@@ -1,11 +1,11 @@
 payload:
-- DOMAIN-SUFFIX,iracing.com,🌍 VPN
-- DOMAIN-SUFFIX,members.iracing.com,🌍 VPN
-- DOMAIN-SUFFIX,cdn.iracing.com,🌍 VPN
-- DOMAIN,iracing.vm.statshelix.com,🌍 VPN
-- DOMAIN-SUFFIX,garage61.net,🌍 VPN
-- DOMAIN-SUFFIX,tradingpaints.com,🌍 VPN
-- DOMAIN-SUFFIX,static.tradingpaints.com,🌍 VPN
-- DOMAIN-SUFFIX,api.tradingpaints.com,🌍 VPN
+- DOMAIN-SUFFIX,iracing.com
+- DOMAIN-SUFFIX,members.iracing.com
+- DOMAIN-SUFFIX,cdn.iracing.com
+- DOMAIN,iracing.vm.statshelix.com
+- DOMAIN-SUFFIX,garage61.net
+- DOMAIN-SUFFIX,tradingpaints.com
+- DOMAIN-SUFFIX,static.tradingpaints.com
+- DOMAIN-SUFFIX,api.tradingpaints.com
 
 - DOMAIN-SUFFIX,nexusmods.com
