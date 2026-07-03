@@ -1,6 +1,7 @@
 payload:
  - DOMAIN-SUFFIX,youtube.com
  - DOMAIN-SUFFIX,youtu.be
+ - DOMAIN-SUFFIX,googlevideo.com
 
 - DOMAIN-SUFFIX,twitch.tv
 - DOMAIN-SUFFIX,jtvnw.net
@@ -14,7 +15,25 @@ payload:
 
 - DOMAIN-SUFFIX,spotify.com
 - DOMAIN-SUFFIX,scdn.co
+- DOMAIN-SUFFIX,spoti.fi
+- DOMAIN,audio-ak-spotify-com.akamaized.net
+- DOMAIN,apresolve.spotify.com
 
-- DOMAIN-SUFFIX,youtube.com
-- DOMAIN-SUFFIX,googlevideo.com
-- DOMAIN-SUFFIX,youtu.be
+- DOMAIN-SUFFIX,twitch.tv
+- DOMAIN-SUFFIX,ttvnw.net
+- DOMAIN-SUFFIX,jtvnw.net
+- DOMAIN-SUFFIX,twitchcdn.net
+
+# 7TV
+- DOMAIN-SUFFIX,7tv.app
+- DOMAIN-SUFFIX,cdn.7tv.app
+- DOMAIN-SUFFIX,api.7tv.app
+
+# BetterTTV (BTTV)
+- DOMAIN-SUFFIX,betterttv.net
+- DOMAIN-SUFFIX,cached-images.betterttv.net
+
+# FrankerFaceZ (FFZ emotes)
+- DOMAIN-SUFFIX,frankerfacez.com
+- DOMAIN-SUFFIX,cdn.frankerfacez.com
+
