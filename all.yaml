@@ -1,93 +1,205 @@
-payload:
-  # === AI / dev tools ===
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN-SUFFIX,huggingface.co
-  - DOMAIN-SUFFIX,poe.com
-  - DOMAIN-SUFFIX,github.com
-  - DOMAIN-SUFFIX,githubusercontent.com
-  - DOMAIN-SUFFIX,githubassets.com
-  - DOMAIN-SUFFIX,github.io
-  - DOMAIN-SUFFIX,gitlab.com
-  - DOMAIN-SUFFIX,docker.com
-  - DOMAIN-SUFFIX,docker.io
-  - DOMAIN-SUFFIX,npmjs.com
-  - DOMAIN-SUFFIX,pypi.org
-  - DOMAIN-SUFFIX,jetbrains.com
+# === AI / dev tools ===
+- DOMAIN-SUFFIX,chatgpt.com
+- DOMAIN-SUFFIX,openai.com
+- DOMAIN-SUFFIX,oaistatic.com
+- DOMAIN-SUFFIX,claude.ai
+- DOMAIN-SUFFIX,anthropic.com
+- DOMAIN-SUFFIX,gemini.google.com
+- DOMAIN-SUFFIX,perplexity.ai
+- DOMAIN-SUFFIX,huggingface.co
+- DOMAIN-SUFFIX,poe.com
+- DOMAIN-SUFFIX,deepl.com
+- DOMAIN-SUFFIX,github.com
+- DOMAIN-SUFFIX,githubusercontent.com
+- DOMAIN-SUFFIX,githubassets.com
+- DOMAIN-SUFFIX,github.io
+- DOMAIN-SUFFIX,gitlab.com
+- DOMAIN-SUFFIX,docker.com
+- DOMAIN-SUFFIX,docker.io
+- DOMAIN-SUFFIX,npmjs.com
+- DOMAIN-SUFFIX,pypi.org
+- DOMAIN-SUFFIX,jetbrains.com
 
-  # === telemetry ===
-  - DOMAIN-SUFFIX,statshelix.com
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,datadog.com
+# === telemetry ===
+- DOMAIN-SUFFIX,statshelix.com
+- DOMAIN-SUFFIX,sentry.io
+- DOMAIN-SUFFIX,datadog.com
 
-  # === auth ===
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,accounts.google.com
-  - DOMAIN-SUFFIX,login.live.com
-  - DOMAIN-SUFFIX,steamcommunity.com
+# === auth ===
+- DOMAIN-SUFFIX,auth0.com
+- DOMAIN-SUFFIX,accounts.google.com
+- DOMAIN-SUFFIX,login.live.com
+- DOMAIN-SUFFIX,steamcommunity.com
 
-  # === sim racing / gaming CDN (специфичные домены, не общий edge) ===
-  - DOMAIN-SUFFIX,iracing.com
-  - DOMAIN-SUFFIX,members.iracing.com
-  - DOMAIN-SUFFIX,cdn.iracing.com
-  - DOMAIN,iracing.vm.statshelix.com
-  - DOMAIN-SUFFIX,garage61.net
-  - DOMAIN-SUFFIX,tradingpaints.com
-  - DOMAIN-SUFFIX,static.tradingpaints.com
-  - DOMAIN-SUFFIX,api.tradingpaints.com
-  - DOMAIN-SUFFIX,nexusmods.com
+# === sim racing / gaming CDN ===
+- DOMAIN-SUFFIX,iracing.com
+- DOMAIN-SUFFIX,members.iracing.com
+- DOMAIN-SUFFIX,cdn.iracing.com
+- DOMAIN,iracing.vm.statshelix.com
+- DOMAIN-SUFFIX,garage61.net
+- DOMAIN-SUFFIX,tradingpaints.com
+- DOMAIN-SUFFIX,static.tradingpaints.com
+- DOMAIN-SUFFIX,api.tradingpaints.com
+- DOMAIN-SUFFIX,nexusmods.com
 
-  # === Proton ===
-  - DOMAIN-SUFFIX,proton.me
-  - DOMAIN-SUFFIX,protonmail.com
-  - DOMAIN-SUFFIX,protonmail.ch
-  - DOMAIN-SUFFIX,pm.me
-  - DOMAIN-SUFFIX,protonvpn.com
-  - DOMAIN-SUFFIX,protondrive.com
+# === Proton ===
+- DOMAIN-SUFFIX,proton.me
+- DOMAIN-SUFFIX,protonmail.com
+- DOMAIN-SUFFIX,protonmail.ch
+- DOMAIN-SUFFIX,pm.me
+- DOMAIN-SUFFIX,protonvpn.com
+- DOMAIN-SUFFIX,protondrive.com
 
-  # === social ===
-  - DOMAIN-SUFFIX,discord.com
-  - DOMAIN-SUFFIX,discordapp.com
-  - DOMAIN-SUFFIX,discord.gg
-  - DOMAIN-SUFFIX,discordcdn.com
-  - DOMAIN-SUFFIX,discordmedia.net
-  - DOMAIN-SUFFIX,media.discordapp.net
-  - DOMAIN-SUFFIX,instagram.com
-  - DOMAIN-SUFFIX,cdninstagram.com
-  - DOMAIN-SUFFIX,x.com
-  - DOMAIN-SUFFIX,twitter.com
-  - DOMAIN-SUFFIX,twimg.com
-  - DOMAIN-SUFFIX,reddit.com
-  - DOMAIN-SUFFIX,redd.it
+# === Telegram ===
+- DOMAIN-SUFFIX,t.me
+- DOMAIN-SUFFIX,telegram.me
+- DOMAIN-SUFFIX,telegram.org
+- DOMAIN-SUFFIX,nicegram.app
+- DOMAIN-SUFFIX,telesco.pe
+- DOMAIN-SUFFIX,tg.dev
+- DOMAIN,dc4-1.rtmp.t.me
 
-  # === streaming ===
-  - DOMAIN-SUFFIX,twitch.tv
-  - DOMAIN-SUFFIX,jtvnw.net
-  - DOMAIN-SUFFIX,ttvnw.net
-  - DOMAIN-SUFFIX,twitchcdn.net
-  - DOMAIN-SUFFIX,live-video.net
-  - DOMAIN,auth.obsproject.com
-  - DOMAIN-SUFFIX,obsproject.com
-  - DOMAIN-SUFFIX,spotify.com
-  - DOMAIN-SUFFIX,scdn.co
-  - DOMAIN-SUFFIX,spoti.fi
-  - DOMAIN,audio-ak-spotify-com.akamaized.net
-  - DOMAIN,apresolve.spotify.com
+# === Discord (расширено) ===
+- DOMAIN-SUFFIX,discord.com
+- DOMAIN-SUFFIX,discordapp.com
+- DOMAIN-SUFFIX,discordapp.net
+- DOMAIN-SUFFIX,discordapp.io
+- DOMAIN-SUFFIX,discord.gg
+- DOMAIN-SUFFIX,discord.media
+- DOMAIN-SUFFIX,discordcdn.com
+- DOMAIN-SUFFIX,discordmedia.net
+- DOMAIN,media.discordapp.net
+- DOMAIN,images-ext-1.discordapp.net
+- DOMAIN,cdn.discordapp.com
+- DOMAIN,gateway.discord.gg
+- DOMAIN-SUFFIX,discord.co
+- DOMAIN-SUFFIX,discord.design
+- DOMAIN-SUFFIX,discord.dev
+- DOMAIN-SUFFIX,discord.gift
+- DOMAIN-SUFFIX,discord.gifts
+- DOMAIN-SUFFIX,discord.new
+- DOMAIN-SUFFIX,discord.store
+- DOMAIN-SUFFIX,discord.tools
+- DOMAIN-SUFFIX,discord-activities.com
+- DOMAIN-SUFFIX,discordactivities.com
+- DOMAIN-SUFFIX,discordmerch.com
+- DOMAIN-SUFFIX,discordpartygames.com
+- DOMAIN-SUFFIX,discordsays.com
+- DOMAIN-SUFFIX,discordstatus.com
+- DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com
+- DOMAIN,hammerandchisel.ssl.zendesk.com
+- DOMAIN-SUFFIX,airhorn.solutions
+- DOMAIN-SUFFIX,airhornbot.com
+- DOMAIN-SUFFIX,bigbeans.solutions
 
-  # === Twitch emote services ===
-  - DOMAIN-SUFFIX,7tv.app
-  - DOMAIN-SUFFIX,cdn.7tv.app
-  - DOMAIN-SUFFIX,api.7tv.app
-  - DOMAIN-SUFFIX,betterttv.net
-  - DOMAIN-SUFFIX,cached-images.betterttv.net
-  - DOMAIN-SUFFIX,frankerfacez.com
-  - DOMAIN-SUFFIX,cdn.frankerfacez.com
-  - DOMAIN-SUFFIX,3fjm.ahc.ovh
-  - DOMAIN-SUFFIX,ahc.ovh
-  - DOMAIN-SUFFIX,kinopub.net
-  - DOMAIN-SUFFIX,stats.wogames.info
+# === Google / YouTube ===
+- DOMAIN-SUFFIX,google.com
+- DOMAIN-SUFFIX,google.by
+- DOMAIN-SUFFIX,support.google.com
+- DOMAIN-SUFFIX,ggpht.com
+- DOMAIN,ggpht.cn
+- DOMAIN-SUFFIX,googlevideo.com
+- DOMAIN-SUFFIX,wide-youtube.l.google.com
+- DOMAIN-SUFFIX,withyoutube.com
+- DOMAIN-SUFFIX,youtu.be
+- DOMAIN-SUFFIX,yt.be
+- DOMAIN-SUFFIX,ytimg.com
+- DOMAIN-SUFFIX,youtube.googleapis.com
+- DOMAIN-SUFFIX,youtubei.googleapis.com
+- DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
+- DOMAIN-SUFFIX,youtubego.com
+- DOMAIN-SUFFIX,youtubego.co.id
+- DOMAIN-SUFFIX,youtubego.co.in
+- DOMAIN-SUFFIX,youtubego.com.br
+- DOMAIN-SUFFIX,youtubego.id
+- DOMAIN-SUFFIX,youtubego.in
+- DOMAIN-SUFFIX,youtubekids.com
+- DOMAIN-SUFFIX,youtubegaming.com
+- DOMAIN-SUFFIX,youtubefanfest.com
+- DOMAIN-SUFFIX,youtubeeducation.com
+- DOMAIN-SUFFIX,youtubemobilesupport.com
+# youtube.com + локальные cctld-версии
+- DOMAIN-SUFFIX,youtube-nocookie.com, youtube-ui.l.google.com, youtube.ae, youtube.al, youtube.am, youtube.at, youtube.az, youtube.ba, youtube.be, youtube.bg, youtube.bh, youtube.bo, youtube.by, youtube.ca, youtube.cat, youtube.ch, youtube.cl, youtube.co, youtube.co.ae, youtube.co.at, youtube.co.cr, youtube.co.hu, youtube.co.id, youtube.co.il, youtube.co.in, youtube.co.jp, youtube.co.ke, youtube.co.kr, youtube.co.ma, youtube.co.nz, youtube.co.th, youtube.co.tz, youtube.co.ug, youtube.co.uk, youtube.co.ve, youtube.co.za, youtube.co.zw, youtube.com, youtube.com.ar, youtube.com.au, youtube.com.az, youtube.com.bd, youtube.com.bh, youtube.com.bo, youtube.com.br, youtube.com.by, youtube.com.co, youtube.com.do, youtube.com.ec, youtube.com.ee, youtube.com.eg, youtube.com.es, youtube.com.gh, youtube.com.gr, youtube.com.gt, youtube.com.hk, youtube.com.hn, youtube.com.hr, youtube.com.jm, youtube.com.jo, youtube.com.kw, youtube.com.lb, youtube.com.lv, youtube.com.ly, youtube.com.mk, youtube.com.mt, youtube.com.mx, youtube.com.my, youtube.com.ng, youtube.com.ni, youtube.com.om, youtube.com.pa, youtube.com.pe, youtube.com.ph, youtube.com.pk, youtube.com.pt, youtube.com.py, youtube.com.qa, youtube.com.ro, youtube.com.sa, youtube.com.sg, youtube.com.sv, youtube.com.tn, youtube.com.tr, youtube.com.tw, youtube.com.ua, youtube.com.uy, youtube.com.ve, youtube.cr, youtube.cz, youtube.de, youtube.dk, youtube.ee, youtube.es, youtube.fi, youtube.fr, youtube.ge, youtube.gr, youtube.gt, youtube.hk, youtube.hr, youtube.hu, youtube.ie, youtube.in, youtube.iq, youtube.is, youtube.it, youtube.jo, youtube.jp, youtube.kr, youtube.kz, youtube.la, youtube.lk, youtube.lt, youtube.lu, youtube.lv, youtube.ly, youtube.ma, youtube.md, youtube.me, youtube.mk, youtube.mn, youtube.mx, youtube.my, youtube.ng, youtube.ni, youtube.nl, youtube.no, youtube.pa, youtube.pe, youtube.ph, youtube.pk, youtube.pl, youtube.pr, youtube.pt, youtube.qa, youtube.ro, youtube.rs, youtube.ru, youtube.sa, youtube.se, youtube.sg, youtube.si, youtube.sk, youtube.sn, youtube.soy, youtube.sv, youtube.tn, youtube.tv, youtube.ua, youtube.ug, youtube.uy, youtube.vn, youtubeeducation.com, youtubefanfest.com, youtubegaming.com, youtubekids.com, youtubemobilesupport.com
+
+# === NVIDIA ===
+- DOMAIN-SUFFIX,nvidia.com
+- DOMAIN,download.nvidia.com
+- DOMAIN,ru.download.nvidia.com
+
+# === социальные сети / общее ===
+- DOMAIN-SUFFIX,discord.com
+- DOMAIN-SUFFIX,discordapp.com
+- DOMAIN-SUFFIX,discordapp.io
+- DOMAIN-SUFFIX,discord.gg
+- DOMAIN-SUFFIX,discordcdn.com
+- DOMAIN-SUFFIX,instagram.com
+- DOMAIN-SUFFIX,cdninstagram.com
+- DOMAIN-SUFFIX,x.com
+- DOMAIN-SUFFIX,twitter.com
+- DOMAIN-SUFFIX,twimg.com
+- DOMAIN-SUFFIX,reddit.com
+- DOMAIN-SUFFIX,redd.it
+- DOMAIN-SUFFIX,facebook.com
+- DOMAIN-SUFFIX,tiktok.com
+- DOMAIN-SUFFIX,patreon.com
+- DOMAIN-SUFFIX,linktr.ee
+- DOMAIN-SUFFIX,truthsocial.com
+- DOMAIN-SUFFIX,dw.com
+- DOMAIN-SUFFIX,2ch.hk
+- DOMAIN-SUFFIX,pornhub.com
+- DOMAIN-SUFFIX,speedtest.net
+- DOMAIN-SUFFIX,prnt.sc
+- DOMAIN-SUFFIX,adguard.com
+- DOMAIN-SUFFIX,clck.ru
+
+# === гемблинг / крипто ===
+- DOMAIN-SUFFIX,stake.com
+- DOMAIN-SUFFIX,stake.bz
+- DOMAIN-SUFFIX,pump.fun
+- DOMAIN-SUFFIX,bestchange.ru
+
+# === аниме / стриминг ===
+- DOMAIN-SUFFIX,kino.pub
+- DOMAIN-SUFFIX,jut.su
+- DOMAIN-SUFFIX,animego.org
+- DOMAIN-SUFFIX,watchanimeattheoffice.com
+
+# === стриминг ===
+- DOMAIN-SUFFIX,twitch.tv
+- DOMAIN-SUFFIX,jtvnw.net
+- DOMAIN-SUFFIX,ttvnw.net
+- DOMAIN-SUFFIX,twitchcdn.net
+- DOMAIN-SUFFIX,live-video.net
+- DOMAIN,auth.obsproject.com
+- DOMAIN-SUFFIX,obsproject.com
+- DOMAIN-SUFFIX,spotify.com
+- DOMAIN-SUFFIX,scdn.co
+- DOMAIN-SUFFIX,spoti.fi
+- DOMAIN,audio-ak-spotify-com.akamaized.net
+- DOMAIN,apresolve.spotify.com
+
+# === эмодзи-сервисы Twitch ===
+- DOMAIN-SUFFIX,7tv.app
+- DOMAIN-SUFFIX,7tv.io
+- DOMAIN-SUFFIX,10tv.app
+- DOMAIN-SUFFIX,cdn.7tv.app
+- DOMAIN-SUFFIX,api.7tv.app
+- DOMAIN-SUFFIX,betterttv.net
+- DOMAIN-SUFFIX,cached-images.betterttv.net
+- DOMAIN-SUFFIX,frankerfacez.com
+- DOMAIN-SUFFIX,cdn.frankerfacez.com
+- DOMAIN-SUFFIX,3fjm.ahc.ovh
+- DOMAIN-SUFFIX,ahc.ovh
+- DOMAIN-SUFFIX,kinopub.net
+- DOMAIN-SUFFIX,stats.wogames.info
+
+# === прочее ===
+- DOMAIN-SUFFIX,kappa.lol
+- DOMAIN-SUFFIX,gachi.gay
+- DOMAIN-SUFFIX,femboy.beauty
+- DOMAIN,i.supa.codes
+- DOMAIN-SUFFIX,v2.vost.pw
+- DOMAIN-SUFFIX,cloudflare-ech.com
+- DOMAIN,amc.yandex.ru
+- DOMAIN,chatis.is2511.com
+- DOMAIN-SUFFIX,streamiverse.io
